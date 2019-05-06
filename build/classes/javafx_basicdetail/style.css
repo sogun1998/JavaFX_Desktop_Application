@@ -1,0 +1,23 @@
+.button{
+    -fx-background-color:#DBD9D9; 
+}
+.button:hover{
+    -fx-background-color: #C0D5F7;
+}
+.button:pressed{
+    -fx-background-color: #73A3EF;
+}
+.linear-grad-to-bottom{
+    -fx-background-color: linear-gradient(to bottom,#5AB0E2,#283C50);
+    
+}
+/*.play{
+    -fx-background-color:inherit;
+    -fx-background-image: url("../image/play-solid.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: stretch;
+     -fx-background-position: center center;
+}
+.play:hover{
+    -fx-background-color:none;
+}*/
