@@ -9,13 +9,16 @@ package javafx_basicdetail.model.Element;
  *
  * @author Admin
  */
-public class Contants {
+public class Constants {
     public static final int WIDTH = 20;
     public static final int HEIGHT = 3;
     public static final int RANDOM = 20;
     
-    public static final int SCENE_WIDTH = 793;
+    public static final int SCENE_WIDTH = 1001;
     public static final int SCENE_HEIGHT = 613;
+    
+    public static final int LEFT_PANEL_WIDTH = 207;
+    
     public static final int WINDOW_WIDTH = 1001;
     public static final int WINDOW_HEIGHT = 613;
     public static final int DISTANCE = 25;

@@ -31,8 +31,12 @@ public class Element extends Rectangle {
         return index;
     }
     public Element(int value) {
-        super(Contants.WIDTH, value * Contants.HEIGHT);
+        super(Constants.WIDTH, value * Constants.HEIGHT);
 
         this.value = value;
+    }
+    int compareTo(Element o){
+        if(value>o.getValue()) return -1;
+        else return 1;
     }
 }

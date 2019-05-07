@@ -5,6 +5,7 @@
  */
 package javafx_basicdetail.controller;
 
+import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXSlider;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -15,7 +16,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx_basicdetail.model.Element.ElementArray;
-
+import javafx_basicdetail.model.algos.Bubble;
+import javafx_basicdetail.model.algos.*;
 /**
  * FXML Controller class
  *
@@ -46,8 +48,23 @@ public class BubSortController implements Initializable {
         int speed = (int)speedSlider.getValue();
         System.out.println(numE);
         System.out.println(speed);
+        if (arr != null)
+            biggestPane.getChildren().removeAll(arr.getAll());
         arr = new ElementArray(numE);
-//        biggestPane.getChildren().addAll(arr.getAll());
+        biggestPane.getChildren().addAll(arr.getAll());
+//        Bubble buble = Bubble.getInstance();
+//        buble.sort(arr);
+//        arr.toString();
+    }
+      @FXML
+    private JFXButton playButton;
+
+    @FXML
+    void handlePlayBtn(ActionEvent event) {
+        System.out.println("helo");
+        Bubble buble = Bubble.getInstance();
+        buble.sort(arr);
+//        arr.toString();
         
     }
     

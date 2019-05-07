@@ -12,12 +12,14 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/BubSortController.java</file>
-            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/BubbleSort.fxml</file>
+            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/model/Element/ElementArray.java</file>
+            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/model/Element/Element.java</file>
+            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/model/algos/Bubble.java</file>
             <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/style.css</file>
-            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/FXMLDocumentController.java</file>
-            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/FXMLDocument.fxml</file>
+            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/model/algos/Algos.java</file>
+            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/model/Element/Constants.java</file>
             <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/JavaFX_BasicDetail.java</file>
+            <file>file:/F:/JavaSource/Lab/JavaFX_BasicDetail/src/javafx_basicdetail/controller/BubSortController.java</file>
         </group>
     </open-files>
 </project-private>
